@@ -8,7 +8,7 @@ fi
 filesdir=$1
 searchstr=$2
 
-# Check if filesdir is a valid directory
+# Check if filesdir is a  directory
 if [ ! -d "$filesdir" ]; then
     echo "Error: '$filesdir' is not a valid directory."
     exit 1
